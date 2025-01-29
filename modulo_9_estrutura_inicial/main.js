@@ -14,8 +14,8 @@ $(document).ready(function () {
         $(`<img src="${addressNewImg}"/>`).appendTo(newItem);
         $(`
             <div class="overlay-image-link">
-                <a href="${addressNewImg}" title="Ver imagem em tamanho Real" target="_blank">
-                Ver imagem em tamanho Real</a>
+                <a href="${addressNewImg}" title="Ver imagem em tamanho real" target="_blank">
+                Ver imagem em tamanho real</a>
             </div>
         `).appendTo(newItem);
         $(newItem).appendTo('ul');
